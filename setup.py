@@ -9,7 +9,7 @@ from setuptools import find_packages, setup, Command
 NAME = 'colorlib'
 DESCRIPTION = 'Small library for sampling from color spaces'
 URL = 'https://github.com/IYIagnus/colorlib'
-EMAIL = 'mhalle@protonmailcom'
+EMAIL = 'mhalle@protonmail.com'
 AUTHOR = 'Magnus C. Halle'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'

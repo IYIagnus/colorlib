@@ -28,7 +28,7 @@ class Gradient(object):
             (self.stop_hue-self.start_hue) + self.start_hue
             
         r, g, b = hsv_to_rgb(h/360, self.s, self.v)
-        return r, g, b
+        return r*255, g*255, b*255
 
 
 class GreenRed(Gradient):
